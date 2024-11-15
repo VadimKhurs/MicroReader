@@ -1,6 +1,8 @@
-package com.example.microreader;
+package com.example.microreader.Tools;
 
 import android.speech.tts.TextToSpeech;
+
+import com.example.microreader.MainActivity;
 
 import java.util.Locale;
 

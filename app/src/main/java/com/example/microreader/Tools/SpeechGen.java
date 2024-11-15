@@ -1,4 +1,4 @@
-package com.example.microreader;
+package com.example.microreader.Tools;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -11,8 +11,10 @@ import android.media.audiofx.AcousticEchoCanceler;
 
 import androidx.core.app.ActivityCompat;
 
+import com.example.microreader.MainActivity;
+
 public class SpeechGen {
-    boolean isRecording = false;
+    public boolean isRecording = false;
     AudioManager am = null;
     AudioRecord record = null;
     AudioTrack track = null;

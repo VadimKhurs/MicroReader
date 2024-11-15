@@ -13,6 +13,9 @@ import androidx.core.view.WindowInsetsCompat;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.microreader.Tools.SpeechGen;
+import com.example.microreader.Tools.TextGen;
+
 
 public class MainActivity extends AppCompatActivity {
     TextGen tts;
