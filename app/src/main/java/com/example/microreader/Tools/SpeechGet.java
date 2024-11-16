@@ -13,13 +13,13 @@ import androidx.core.app.ActivityCompat;
 
 import com.example.microreader.MainActivity;
 
-public class SpeechGen {
+public class SpeechGet {
     public boolean isRecording = false;
     AudioManager am = null;
     AudioRecord record = null;
     AudioTrack track = null;
 
-    public SpeechGen(MainActivity context) {
+    public SpeechGet(MainActivity context) {
         initRecordAndTrack(context);
 
         am = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);

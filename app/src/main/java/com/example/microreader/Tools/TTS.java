@@ -6,10 +6,10 @@ import com.example.microreader.MainActivity;
 
 import java.util.Locale;
 
-public class TextGen{
+public class TTS {
     public TextToSpeech tts;
 
-    public TextGen(MainActivity context){
+    public TTS(MainActivity context){
         tts = new TextToSpeech(context, status -> {
             if (status == TextToSpeech.SUCCESS) {
                 // Set language to Russian
